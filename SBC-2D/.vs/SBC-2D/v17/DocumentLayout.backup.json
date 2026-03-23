@@ -1,0 +1,457 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\project\\A3F3-SBC-2D\\SW-1\\20260118\\SBC-2D\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{633666A2-A4DC-4CF7-AB8A-B8F83C6EF706}|SBC-2D\\SBC-2D.csproj|d:\\project\\a3f3-sbc-2d\\sw-1\\20260118\\sbc-2d\\sbc-2d\\views\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{633666A2-A4DC-4CF7-AB8A-B8F83C6EF706}|SBC-2D\\SBC-2D.csproj|solutionrelative:sbc-2d\\views\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{633666A2-A4DC-4CF7-AB8A-B8F83C6EF706}|SBC-2D\\SBC-2D.csproj|D:\\project\\A3F3-SBC-2D\\SW-1\\20260118\\SBC-2D\\sbc-2d\\domain\\servicies\\deviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{633666A2-A4DC-4CF7-AB8A-B8F83C6EF706}|SBC-2D\\SBC-2D.csproj|solutionrelative:sbc-2d\\domain\\servicies\\deviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{633666A2-A4DC-4CF7-AB8A-B8F83C6EF706}|SBC-2D\\SBC-2D.csproj|D:\\project\\A3F3-SBC-2D\\SW-1\\20260118\\SBC-2D\\sbc-2d\\presenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{633666A2-A4DC-4CF7-AB8A-B8F83C6EF706}|SBC-2D\\SBC-2D.csproj|solutionrelative:sbc-2d\\presenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{633666A2-A4DC-4CF7-AB8A-B8F83C6EF706}|SBC-2D\\SBC-2D.csproj|d:\\project\\a3f3-sbc-2d\\sw-1\\20260118\\sbc-2d\\sbc-2d\\views\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{633666A2-A4DC-4CF7-AB8A-B8F83C6EF706}|SBC-2D\\SBC-2D.csproj|solutionrelative:sbc-2d\\views\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{633666A2-A4DC-4CF7-AB8A-B8F83C6EF706}|SBC-2D\\SBC-2D.csproj|D:\\project\\A3F3-SBC-2D\\SW-1\\20260118\\SBC-2D\\sbc-2d\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{633666A2-A4DC-4CF7-AB8A-B8F83C6EF706}|SBC-2D\\SBC-2D.csproj|solutionrelative:sbc-2d\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{633666A2-A4DC-4CF7-AB8A-B8F83C6EF706}|SBC-2D\\SBC-2D.csproj|d:\\project\\a3f3-sbc-2d\\sw-1\\20260118\\sbc-2d\\sbc-2d\\infrastructures\\ini\\inisetuploader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{633666A2-A4DC-4CF7-AB8A-B8F83C6EF706}|SBC-2D\\SBC-2D.csproj|solutionrelative:sbc-2d\\infrastructures\\ini\\inisetuploader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{633666A2-A4DC-4CF7-AB8A-B8F83C6EF706}|SBC-2D\\SBC-2D.csproj|D:\\project\\A3F3-SBC-2D\\SW-1\\20260118\\SBC-2D\\sbc-2d\\infrastructures\\devicesstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{633666A2-A4DC-4CF7-AB8A-B8F83C6EF706}|SBC-2D\\SBC-2D.csproj|solutionrelative:sbc-2d\\infrastructures\\devicesstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{633666A2-A4DC-4CF7-AB8A-B8F83C6EF706}|SBC-2D\\SBC-2D.csproj|d:\\project\\a3f3-sbc-2d\\sw-1\\20260118\\sbc-2d\\sbc-2d\\views\\interfaces\\iconnectionsettingview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{633666A2-A4DC-4CF7-AB8A-B8F83C6EF706}|SBC-2D\\SBC-2D.csproj|solutionrelative:sbc-2d\\views\\interfaces\\iconnectionsettingview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{633666A2-A4DC-4CF7-AB8A-B8F83C6EF706}|SBC-2D\\SBC-2D.csproj|D:\\project\\A3F3-SBC-2D\\SW-1\\20260118\\SBC-2D\\sbc-2d\\views\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{633666A2-A4DC-4CF7-AB8A-B8F83C6EF706}|SBC-2D\\SBC-2D.csproj|solutionrelative:sbc-2d\\views\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{633666A2-A4DC-4CF7-AB8A-B8F83C6EF706}|SBC-2D\\SBC-2D.csproj|d:\\project\\a3f3-sbc-2d\\sw-1\\20260118\\sbc-2d\\sbc-2d\\views\\form3.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{633666A2-A4DC-4CF7-AB8A-B8F83C6EF706}|SBC-2D\\SBC-2D.csproj|solutionrelative:sbc-2d\\views\\form3.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{633666A2-A4DC-4CF7-AB8A-B8F83C6EF706}|SBC-2D\\SBC-2D.csproj|d:\\project\\a3f3-sbc-2d\\sw-1\\20260118\\sbc-2d\\sbc-2d\\infrastructures\\ini\\inistore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{633666A2-A4DC-4CF7-AB8A-B8F83C6EF706}|SBC-2D\\SBC-2D.csproj|solutionrelative:sbc-2d\\infrastructures\\ini\\inistore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{633666A2-A4DC-4CF7-AB8A-B8F83C6EF706}|SBC-2D\\SBC-2D.csproj|d:\\project\\a3f3-sbc-2d\\sw-1\\20260118\\sbc-2d\\sbc-2d\\domain\\repositories\\parameterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{633666A2-A4DC-4CF7-AB8A-B8F83C6EF706}|SBC-2D\\SBC-2D.csproj|solutionrelative:sbc-2d\\domain\\repositories\\parameterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{633666A2-A4DC-4CF7-AB8A-B8F83C6EF706}|SBC-2D\\SBC-2D.csproj|D:\\project\\A3F3-SBC-2D\\SW-1\\20260118\\SBC-2D\\sbc-2d\\infrastructures\\loggerstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{633666A2-A4DC-4CF7-AB8A-B8F83C6EF706}|SBC-2D\\SBC-2D.csproj|solutionrelative:sbc-2d\\infrastructures\\loggerstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{633666A2-A4DC-4CF7-AB8A-B8F83C6EF706}|SBC-2D\\SBC-2D.csproj|D:\\project\\A3F3-SBC-2D\\SW-1\\20260118\\SBC-2D\\sbc-2d\\infrastructures\\filelogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{633666A2-A4DC-4CF7-AB8A-B8F83C6EF706}|SBC-2D\\SBC-2D.csproj|solutionrelative:sbc-2d\\infrastructures\\filelogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{633666A2-A4DC-4CF7-AB8A-B8F83C6EF706}|SBC-2D\\SBC-2D.csproj|D:\\project\\A3F3-SBC-2D\\SW-1\\20260118\\SBC-2D\\sbc-2d\\domain\\servicies\\parameterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{633666A2-A4DC-4CF7-AB8A-B8F83C6EF706}|SBC-2D\\SBC-2D.csproj|solutionrelative:sbc-2d\\domain\\servicies\\parameterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{633666A2-A4DC-4CF7-AB8A-B8F83C6EF706}|SBC-2D\\SBC-2D.csproj|d:\\project\\a3f3-sbc-2d\\sw-1\\20260118\\sbc-2d\\sbc-2d\\infrastructures\\ini\\inifile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{633666A2-A4DC-4CF7-AB8A-B8F83C6EF706}|SBC-2D\\SBC-2D.csproj|solutionrelative:sbc-2d\\infrastructures\\ini\\inifile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{633666A2-A4DC-4CF7-AB8A-B8F83C6EF706}|SBC-2D\\SBC-2D.csproj|D:\\project\\A3F3-SBC-2D\\SW-1\\20260118\\SBC-2D\\sbc-2d\\infrastructures\\systemioruntime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{633666A2-A4DC-4CF7-AB8A-B8F83C6EF706}|SBC-2D\\SBC-2D.csproj|solutionrelative:sbc-2d\\infrastructures\\systemioruntime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{633666A2-A4DC-4CF7-AB8A-B8F83C6EF706}|SBC-2D\\SBC-2D.csproj|D:\\project\\A3F3-SBC-2D\\SW-1\\20260118\\SBC-2D\\sbc-2d\\infrastructures\\iiodevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{633666A2-A4DC-4CF7-AB8A-B8F83C6EF706}|SBC-2D\\SBC-2D.csproj|solutionrelative:sbc-2d\\infrastructures\\iiodevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{633666A2-A4DC-4CF7-AB8A-B8F83C6EF706}|SBC-2D\\SBC-2D.csproj|D:\\project\\A3F3-SBC-2D\\SW-1\\20260118\\SBC-2D\\sbc-2d\\infrastructures\\idevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{633666A2-A4DC-4CF7-AB8A-B8F83C6EF706}|SBC-2D\\SBC-2D.csproj|solutionrelative:sbc-2d\\infrastructures\\idevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{633666A2-A4DC-4CF7-AB8A-B8F83C6EF706}|SBC-2D\\SBC-2D.csproj|D:\\project\\A3F3-SBC-2D\\SW-1\\20260118\\SBC-2D\\sbc-2d\\infrastructures\\iconnectable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{633666A2-A4DC-4CF7-AB8A-B8F83C6EF706}|SBC-2D\\SBC-2D.csproj|solutionrelative:sbc-2d\\infrastructures\\iconnectable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{633666A2-A4DC-4CF7-AB8A-B8F83C6EF706}|SBC-2D\\SBC-2D.csproj|D:\\project\\A3F3-SBC-2D\\SW-1\\20260118\\SBC-2D\\sbc-2d\\infrastructures\\adam6052.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{633666A2-A4DC-4CF7-AB8A-B8F83C6EF706}|SBC-2D\\SBC-2D.csproj|solutionrelative:sbc-2d\\infrastructures\\adam6052.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{633666A2-A4DC-4CF7-AB8A-B8F83C6EF706}|SBC-2D\\SBC-2D.csproj|d:\\project\\a3f3-sbc-2d\\sw-1\\20260118\\sbc-2d\\sbc-2d\\infrastructures\\devicefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{633666A2-A4DC-4CF7-AB8A-B8F83C6EF706}|SBC-2D\\SBC-2D.csproj|solutionrelative:sbc-2d\\infrastructures\\devicefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{633666A2-A4DC-4CF7-AB8A-B8F83C6EF706}|SBC-2D\\SBC-2D.csproj|D:\\project\\A3F3-SBC-2D\\SW-1\\20260118\\SBC-2D\\sbc-2d\\views\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{633666A2-A4DC-4CF7-AB8A-B8F83C6EF706}|SBC-2D\\SBC-2D.csproj|solutionrelative:sbc-2d\\views\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{633666A2-A4DC-4CF7-AB8A-B8F83C6EF706}|SBC-2D\\SBC-2D.csproj|D:\\project\\A3F3-SBC-2D\\SW-1\\20260118\\SBC-2D\\sbc-2d\\domain\\models\\iostate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{633666A2-A4DC-4CF7-AB8A-B8F83C6EF706}|SBC-2D\\SBC-2D.csproj|solutionrelative:sbc-2d\\domain\\models\\iostate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{633666A2-A4DC-4CF7-AB8A-B8F83C6EF706}|SBC-2D\\SBC-2D.csproj|D:\\project\\A3F3-SBC-2D\\SW-1\\20260118\\SBC-2D\\sbc-2d\\domain\\models\\parametersmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{633666A2-A4DC-4CF7-AB8A-B8F83C6EF706}|SBC-2D\\SBC-2D.csproj|solutionrelative:sbc-2d\\domain\\models\\parametersmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{633666A2-A4DC-4CF7-AB8A-B8F83C6EF706}|SBC-2D\\SBC-2D.csproj|D:\\project\\A3F3-SBC-2D\\SW-1\\20260118\\SBC-2D\\sbc-2d\\domain\\models\\parameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{633666A2-A4DC-4CF7-AB8A-B8F83C6EF706}|SBC-2D\\SBC-2D.csproj|solutionrelative:sbc-2d\\domain\\models\\parameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Form3.Designer.cs",
+              "DocumentMoniker": "D:\\project\\A3F3-SBC-2D\\SW-1\\20260118\\SBC-2D\\SBC-2D\\Views\\Form3.Designer.cs",
+              "RelativeDocumentMoniker": "SBC-2D\\Views\\Form3.Designer.cs",
+              "ToolTip": "D:\\project\\A3F3-SBC-2D\\SW-1\\20260118\\SBC-2D\\SBC-2D\\Views\\Form3.Designer.cs*",
+              "RelativeToolTip": "SBC-2D\\Views\\Form3.Designer.cs*",
+              "ViewState": "AgIAAJQBAAAAAAAAAADwv5wBAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-25T13:11:55.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IConnectionSettingView.cs",
+              "DocumentMoniker": "D:\\project\\A3F3-SBC-2D\\SW-1\\20260118\\SBC-2D\\SBC-2D\\Views\\Interfaces\\IConnectionSettingView.cs",
+              "RelativeDocumentMoniker": "SBC-2D\\Views\\Interfaces\\IConnectionSettingView.cs",
+              "ToolTip": "D:\\project\\A3F3-SBC-2D\\SW-1\\20260118\\SBC-2D\\SBC-2D\\Views\\Interfaces\\IConnectionSettingView.cs",
+              "RelativeToolTip": "SBC-2D\\Views\\Interfaces\\IConnectionSettingView.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAwwA0AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-25T12:14:03.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form3.cs",
+              "DocumentMoniker": "D:\\project\\A3F3-SBC-2D\\SW-1\\20260118\\SBC-2D\\SBC-2D\\Views\\Form3.cs",
+              "RelativeDocumentMoniker": "SBC-2D\\Views\\Form3.cs",
+              "ToolTip": "D:\\project\\A3F3-SBC-2D\\SW-1\\20260118\\SBC-2D\\SBC-2D\\Views\\Form3.cs*",
+              "RelativeToolTip": "SBC-2D\\Views\\Form3.cs*",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAiwHIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-25T11:56:50.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form3.cs [\u8A2D\u8A08]",
+              "DocumentMoniker": "D:\\project\\A3F3-SBC-2D\\SW-1\\20260118\\SBC-2D\\SBC-2D\\Views\\Form3.cs",
+              "RelativeDocumentMoniker": "SBC-2D\\Views\\Form3.cs",
+              "ToolTip": "D:\\project\\A3F3-SBC-2D\\SW-1\\20260118\\SBC-2D\\SBC-2D\\Views\\Form3.cs [\u8A2D\u8A08]*",
+              "RelativeToolTip": "SBC-2D\\Views\\Form3.cs [\u8A2D\u8A08]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-25T11:56:47.117Z",
+              "EditorCaption": " [\u8A2D\u8A08]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ParameterRepository.cs",
+              "DocumentMoniker": "D:\\project\\A3F3-SBC-2D\\SW-1\\20260118\\SBC-2D\\SBC-2D\\Domain\\Repositories\\ParameterRepository.cs",
+              "RelativeDocumentMoniker": "SBC-2D\\Domain\\Repositories\\ParameterRepository.cs",
+              "ToolTip": "D:\\project\\A3F3-SBC-2D\\SW-1\\20260118\\SBC-2D\\SBC-2D\\Domain\\Repositories\\ParameterRepository.cs",
+              "RelativeToolTip": "SBC-2D\\Domain\\Repositories\\ParameterRepository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAmwBgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-25T10:56:55.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IniSetupLoader.cs",
+              "DocumentMoniker": "D:\\project\\A3F3-SBC-2D\\SW-1\\20260118\\SBC-2D\\SBC-2D\\Infrastructures\\Ini\\IniSetupLoader.cs",
+              "RelativeDocumentMoniker": "SBC-2D\\Infrastructures\\Ini\\IniSetupLoader.cs",
+              "ToolTip": "D:\\project\\A3F3-SBC-2D\\SW-1\\20260118\\SBC-2D\\SBC-2D\\Infrastructures\\Ini\\IniSetupLoader.cs",
+              "RelativeToolTip": "SBC-2D\\Infrastructures\\Ini\\IniSetupLoader.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAjwDYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-25T10:03:08.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IniFile.cs",
+              "DocumentMoniker": "D:\\project\\A3F3-SBC-2D\\SW-1\\20260118\\SBC-2D\\SBC-2D\\Infrastructures\\Ini\\IniFile.cs",
+              "RelativeDocumentMoniker": "SBC-2D\\Infrastructures\\Ini\\IniFile.cs",
+              "ToolTip": "D:\\project\\A3F3-SBC-2D\\SW-1\\20260118\\SBC-2D\\SBC-2D\\Infrastructures\\Ini\\IniFile.cs",
+              "RelativeToolTip": "SBC-2D\\Infrastructures\\Ini\\IniFile.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAkwCkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T14:21:11.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IniStore.cs",
+              "DocumentMoniker": "D:\\project\\A3F3-SBC-2D\\SW-1\\20260118\\SBC-2D\\SBC-2D\\Infrastructures\\Ini\\IniStore.cs",
+              "RelativeDocumentMoniker": "SBC-2D\\Infrastructures\\Ini\\IniStore.cs",
+              "ToolTip": "D:\\project\\A3F3-SBC-2D\\SW-1\\20260118\\SBC-2D\\SBC-2D\\Infrastructures\\Ini\\IniStore.cs",
+              "RelativeToolTip": "SBC-2D\\Infrastructures\\Ini\\IniStore.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAABsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T12:58:39.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FormMain.cs",
+              "DocumentMoniker": "D:\\project\\A3F3-SBC-2D\\SW-1\\20260118\\SBC-2D\\SBC-2D\\Views\\FormMain.cs",
+              "RelativeDocumentMoniker": "SBC-2D\\Views\\FormMain.cs",
+              "ToolTip": "D:\\project\\A3F3-SBC-2D\\SW-1\\20260118\\SBC-2D\\SBC-2D\\Views\\FormMain.cs",
+              "RelativeToolTip": "SBC-2D\\Views\\FormMain.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAswDsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T12:18:04.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "FormMain.cs [\u8A2D\u8A08]",
+              "DocumentMoniker": "D:\\project\\A3F3-SBC-2D\\SW-1\\20260118\\SBC-2D\\SBC-2D\\Views\\FormMain.cs",
+              "RelativeDocumentMoniker": "SBC-2D\\Views\\FormMain.cs",
+              "ToolTip": "D:\\project\\A3F3-SBC-2D\\SW-1\\20260118\\SBC-2D\\SBC-2D\\Views\\FormMain.cs [\u8A2D\u8A08]",
+              "RelativeToolTip": "SBC-2D\\Views\\FormMain.cs [\u8A2D\u8A08]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T12:18:02.74Z",
+              "EditorCaption": " [\u8A2D\u8A08]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IDevice.cs",
+              "DocumentMoniker": "D:\\project\\A3F3-SBC-2D\\SW-1\\20260118\\SBC-2D\\SBC-2D\\Infrastructures\\IDevice.cs",
+              "RelativeDocumentMoniker": "SBC-2D\\Infrastructures\\IDevice.cs",
+              "ToolTip": "D:\\project\\A3F3-SBC-2D\\SW-1\\20260118\\SBC-2D\\SBC-2D\\Infrastructures\\IDevice.cs",
+              "RelativeToolTip": "SBC-2D\\Infrastructures\\IDevice.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAApwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T09:40:45.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IConnectable.cs",
+              "DocumentMoniker": "D:\\project\\A3F3-SBC-2D\\SW-1\\20260118\\SBC-2D\\SBC-2D\\Infrastructures\\IConnectable.cs",
+              "RelativeDocumentMoniker": "SBC-2D\\Infrastructures\\IConnectable.cs",
+              "ToolTip": "D:\\project\\A3F3-SBC-2D\\SW-1\\20260118\\SBC-2D\\SBC-2D\\Infrastructures\\IConnectable.cs",
+              "RelativeToolTip": "SBC-2D\\Infrastructures\\IConnectable.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAawAsAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T09:40:44.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SystemIoRuntime.cs",
+              "DocumentMoniker": "D:\\project\\A3F3-SBC-2D\\SW-1\\20260118\\SBC-2D\\SBC-2D\\Infrastructures\\SystemIoRuntime.cs",
+              "RelativeDocumentMoniker": "SBC-2D\\Infrastructures\\SystemIoRuntime.cs",
+              "ToolTip": "D:\\project\\A3F3-SBC-2D\\SW-1\\20260118\\SBC-2D\\SBC-2D\\Infrastructures\\SystemIoRuntime.cs",
+              "RelativeToolTip": "SBC-2D\\Infrastructures\\SystemIoRuntime.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA7wBIAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T09:36:26.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IIoDevice.cs",
+              "DocumentMoniker": "D:\\project\\A3F3-SBC-2D\\SW-1\\20260118\\SBC-2D\\SBC-2D\\Infrastructures\\IIoDevice.cs",
+              "RelativeDocumentMoniker": "SBC-2D\\Infrastructures\\IIoDevice.cs",
+              "ToolTip": "D:\\project\\A3F3-SBC-2D\\SW-1\\20260118\\SBC-2D\\SBC-2D\\Infrastructures\\IIoDevice.cs",
+              "RelativeToolTip": "SBC-2D\\Infrastructures\\IIoDevice.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T09:22:13.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IoState.cs",
+              "DocumentMoniker": "D:\\project\\A3F3-SBC-2D\\SW-1\\20260118\\SBC-2D\\SBC-2D\\Domain\\Models\\IoState.cs",
+              "RelativeDocumentMoniker": "SBC-2D\\Domain\\Models\\IoState.cs",
+              "ToolTip": "D:\\project\\A3F3-SBC-2D\\SW-1\\20260118\\SBC-2D\\SBC-2D\\Domain\\Models\\IoState.cs",
+              "RelativeToolTip": "SBC-2D\\Domain\\Models\\IoState.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAowBUAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T07:24:17.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Adam6052.cs",
+              "DocumentMoniker": "D:\\project\\A3F3-SBC-2D\\SW-1\\20260118\\SBC-2D\\SBC-2D\\Infrastructures\\Adam6052.cs",
+              "RelativeDocumentMoniker": "SBC-2D\\Infrastructures\\Adam6052.cs",
+              "ToolTip": "D:\\project\\A3F3-SBC-2D\\SW-1\\20260118\\SBC-2D\\SBC-2D\\Infrastructures\\Adam6052.cs",
+              "RelativeToolTip": "SBC-2D\\Infrastructures\\Adam6052.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAIA8wB8AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T07:24:58.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FileLogger.cs",
+              "DocumentMoniker": "D:\\project\\A3F3-SBC-2D\\SW-1\\20260118\\SBC-2D\\SBC-2D\\Infrastructures\\FileLogger.cs",
+              "RelativeDocumentMoniker": "SBC-2D\\Infrastructures\\FileLogger.cs",
+              "ToolTip": "D:\\project\\A3F3-SBC-2D\\SW-1\\20260118\\SBC-2D\\SBC-2D\\Infrastructures\\FileLogger.cs",
+              "RelativeToolTip": "SBC-2D\\Infrastructures\\FileLogger.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAcwAkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T08:55:58.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Presenter.cs",
+              "DocumentMoniker": "D:\\project\\A3F3-SBC-2D\\SW-1\\20260118\\SBC-2D\\SBC-2D\\Presenter.cs",
+              "RelativeDocumentMoniker": "SBC-2D\\Presenter.cs",
+              "ToolTip": "D:\\project\\A3F3-SBC-2D\\SW-1\\20260118\\SBC-2D\\SBC-2D\\Presenter.cs",
+              "RelativeToolTip": "SBC-2D\\Presenter.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAgwDQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T08:53:35.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\project\\A3F3-SBC-2D\\SW-1\\20260118\\SBC-2D\\SBC-2D\\Program.cs",
+              "RelativeDocumentMoniker": "SBC-2D\\Program.cs",
+              "ToolTip": "D:\\project\\A3F3-SBC-2D\\SW-1\\20260118\\SBC-2D\\SBC-2D\\Program.cs",
+              "RelativeToolTip": "SBC-2D\\Program.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAwB0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T08:53:08.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ParameterService.cs",
+              "DocumentMoniker": "D:\\project\\A3F3-SBC-2D\\SW-1\\20260118\\SBC-2D\\SBC-2D\\Domain\\Servicies\\ParameterService.cs",
+              "RelativeDocumentMoniker": "SBC-2D\\Domain\\Servicies\\ParameterService.cs",
+              "ToolTip": "D:\\project\\A3F3-SBC-2D\\SW-1\\20260118\\SBC-2D\\SBC-2D\\Domain\\Servicies\\ParameterService.cs",
+              "RelativeToolTip": "SBC-2D\\Domain\\Servicies\\ParameterService.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAgwEwAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T08:50:49.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ParametersMap.cs",
+              "DocumentMoniker": "D:\\project\\A3F3-SBC-2D\\SW-1\\20260118\\SBC-2D\\SBC-2D\\Domain\\Models\\ParametersMap.cs",
+              "RelativeDocumentMoniker": "SBC-2D\\Domain\\Models\\ParametersMap.cs",
+              "ToolTip": "D:\\project\\A3F3-SBC-2D\\SW-1\\20260118\\SBC-2D\\SBC-2D\\Domain\\Models\\ParametersMap.cs",
+              "RelativeToolTip": "SBC-2D\\Domain\\Models\\ParametersMap.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T08:49:40.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Parameters.cs",
+              "DocumentMoniker": "D:\\project\\A3F3-SBC-2D\\SW-1\\20260118\\SBC-2D\\SBC-2D\\Domain\\Models\\Parameters.cs",
+              "RelativeDocumentMoniker": "SBC-2D\\Domain\\Models\\Parameters.cs",
+              "ToolTip": "D:\\project\\A3F3-SBC-2D\\SW-1\\20260118\\SBC-2D\\SBC-2D\\Domain\\Models\\Parameters.cs",
+              "RelativeToolTip": "SBC-2D\\Domain\\Models\\Parameters.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T08:49:37.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LoggerStore.cs",
+              "DocumentMoniker": "D:\\project\\A3F3-SBC-2D\\SW-1\\20260118\\SBC-2D\\SBC-2D\\Infrastructures\\LoggerStore.cs",
+              "RelativeDocumentMoniker": "SBC-2D\\Infrastructures\\LoggerStore.cs",
+              "ToolTip": "D:\\project\\A3F3-SBC-2D\\SW-1\\20260118\\SBC-2D\\SBC-2D\\Infrastructures\\LoggerStore.cs",
+              "RelativeToolTip": "SBC-2D\\Infrastructures\\LoggerStore.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAA8wCcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T08:46:47.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DeviceService.cs",
+              "DocumentMoniker": "D:\\project\\A3F3-SBC-2D\\SW-1\\20260118\\SBC-2D\\SBC-2D\\Domain\\Servicies\\DeviceService.cs",
+              "RelativeDocumentMoniker": "SBC-2D\\Domain\\Servicies\\DeviceService.cs",
+              "ToolTip": "D:\\project\\A3F3-SBC-2D\\SW-1\\20260118\\SBC-2D\\SBC-2D\\Domain\\Servicies\\DeviceService.cs",
+              "RelativeToolTip": "SBC-2D\\Domain\\Servicies\\DeviceService.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAC8AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T08:40:07.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DeviceFactory.cs",
+              "DocumentMoniker": "D:\\project\\A3F3-SBC-2D\\SW-1\\20260118\\SBC-2D\\SBC-2D\\Infrastructures\\DeviceFactory.cs",
+              "RelativeDocumentMoniker": "SBC-2D\\Infrastructures\\DeviceFactory.cs",
+              "ToolTip": "D:\\project\\A3F3-SBC-2D\\SW-1\\20260118\\SBC-2D\\SBC-2D\\Infrastructures\\DeviceFactory.cs",
+              "RelativeToolTip": "SBC-2D\\Infrastructures\\DeviceFactory.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAjwB8AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T08:40:03.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DevicesStore.cs",
+              "DocumentMoniker": "D:\\project\\A3F3-SBC-2D\\SW-1\\20260118\\SBC-2D\\SBC-2D\\Infrastructures\\DevicesStore.cs",
+              "RelativeDocumentMoniker": "SBC-2D\\Infrastructures\\DevicesStore.cs",
+              "ToolTip": "D:\\project\\A3F3-SBC-2D\\SW-1\\20260118\\SBC-2D\\SBC-2D\\Infrastructures\\DevicesStore.cs",
+              "RelativeToolTip": "SBC-2D\\Infrastructures\\DevicesStore.cs",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAgwA4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T08:40:02.219Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
