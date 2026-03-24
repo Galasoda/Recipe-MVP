@@ -8,22 +8,28 @@ namespace SBC_2D.Views
     public interface IRecipeView
     {
         event EventHandler Initialized;
-        event EventHandler ToggleEditModeRequested;
         event EventHandler<RecipeManageAction> ActionRequested;
+        event EventHandler<string> ModelNameSelectChanged;
         event EventHandler<string> ActionConfirmed;
         event EventHandler ActionCancelled;
+        event EventHandler ToggleEditModeRequested;
         event EventHandler<bool> MapModeBypassChanged;
         event EventHandler<bool> UpperBrBypassChanged;
         event EventHandler<bool> LowerBrBypassChanged;
         event EventHandler<bool> LdsBypassChanged;
-        event EventHandler<string> ModelNameSelectChanged;
+        event EventHandler<string> ThicknessChanged;
+        event EventHandler<string> ThicknessTolerationChanged;
+        event EventHandler<string> BlockXChanged;
+        event EventHandler<string> BlockYChanged;
+        event EventHandler<string> BlockNumXChanged;
+        event EventHandler<string> BlockNumYChanged;
+        event EventHandler<int> PcbCountChanged;
+        event EventHandler<bool> RotateChanged;
 
         void ShowRecipeNames(IEnumerable<string> names);
         void ShowRecipe(Recipe recipe);
         void SetEditMode(bool isEditing);
         void SetViewMode(RecipeManageAction action);
-        void SetSelectedName(string name);
         void RemoveRecipeName(string name);
-        void ShowMessageBox(string message);
     }
 }

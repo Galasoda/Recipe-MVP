@@ -13,9 +13,9 @@ namespace SBC_2D.Views
 {
     public partial class Form2 : Form, IRecipeView
     {
-        // ── 事件（使用者意圖）────────────────────────────────
         public event EventHandler Initialized;
-        public event EventHandler<RecipeManageAction> ActionRequested;   
+        public event EventHandler<RecipeManageAction> ActionRequested;
+        public event EventHandler<string> ModelNameSelectChanged;
         public event EventHandler<string> ActionConfirmed;
         public event EventHandler ActionCancelled;
         public event EventHandler ToggleEditModeRequested;
@@ -23,7 +23,14 @@ namespace SBC_2D.Views
         public event EventHandler<bool> UpperBrBypassChanged;
         public event EventHandler<bool> LowerBrBypassChanged;
         public event EventHandler<bool> LdsBypassChanged;
-        public event EventHandler<string> ModelNameSelectChanged;
+        public event EventHandler<string> ThicknessChanged;
+        public event EventHandler<string> ThicknessTolerationChanged;
+        public event EventHandler<string> BlockXChanged;
+        public event EventHandler<string> BlockYChanged;
+        public event EventHandler<string> BlockNumXChanged;
+        public event EventHandler<string> BlockNumYChanged;
+        public event EventHandler<int> PcbCountChanged;
+        public event EventHandler<bool> RotateChanged;
 
         public Form2()
         {
@@ -31,13 +38,10 @@ namespace SBC_2D.Views
             ApplyTheme();
         }
 
-        // ── Form Events ───────────────────────────────────────
-
         private void Form2_Load(object sender, EventArgs e)
             => Initialized?.Invoke(this, EventArgs.Empty);
 
-        // ── Button Events（只發事件，不做決定）───────────────
-
+        // Recipe Manage Control
         private void ComboBoxRecipes_SelectedIndexChanged(object sender, EventArgs e)
             => ModelNameSelectChanged?.Invoke(sender, comboBoxRecipes.SelectedItem.ToString());
         private void ButtonToggleEditMode_Click(object sender, EventArgs e)
@@ -78,6 +82,25 @@ namespace SBC_2D.Views
             buttonSwitchEditOrView.Text = isEditing ? "V" : "E";
         }
 
+        public void SetSelectedName(string name)
+        {
+            comboBoxRecipes.SelectedItem = name;
+            comboBoxRecipes.Text = name;
+        }
+
+        public void ShowRecipeNames(IEnumerable<string> names)
+        {
+            comboBoxRecipes.Items.Clear();
+            comboBoxRecipes.Items.AddRange(names.ToArray());
+        }
+
+        public void RemoveRecipeName(string name)
+        {
+            comboBoxRecipes.Items.Remove(name);
+            if (comboBoxRecipes.Items.Count > 0)
+                comboBoxRecipes.SelectedIndex = 0;
+        }
+
         public void SetViewMode(RecipeManageAction action)
         {
             bool isIdle = action == RecipeManageAction.Nothing;
@@ -95,10 +118,6 @@ namespace SBC_2D.Views
             flowLayoutPanelConfirmCancel.Visible = !isIdle;
             if (!isIdle)
                 labelRecipeMamageAction.Text = action.ToString();
-        }
-
-        public void ShowMessageBox(string message)
-        {
         }
 
         public void ShowRecipe(Recipe recipe)
@@ -125,31 +144,48 @@ namespace SBC_2D.Views
 
         private void CheckBoxMapModeBypass_CheckedChanged(object sender, EventArgs e)
             => MapModeBypassChanged?.Invoke(this, checkBoxMapModeBypass.Checked);
+
         private void CheckBoxUpperBrBypass_CheckedChanged(object sender, EventArgs e)
             => UpperBrBypassChanged?.Invoke(this, checkBoxUpperBrBypass.Checked);
+
         private void CheckBoxLowerBrBypass_CheckedChanged(object sender, EventArgs e)
             => LowerBrBypassChanged?.Invoke(this, checkBoxLowerBrBypass.Checked);
+
         private void CheckBoxLdsBypass_CheckedChanged(object sender, EventArgs e)
             => LdsBypassChanged?.Invoke(this, checkBoxLdsBypass.Checked);
 
-        public void SetSelectedName(string name)
+        private void TextBoxPcbThickness_TextChanged(object sender, EventArgs e)
+            => ThicknessChanged?.Invoke(this, textBoxPcbThickness.Text);
+
+        private void TextBoxThicknessTolrence_TextChanged(object sender, EventArgs e)
+            => ThicknessTolerationChanged?.Invoke(this, textBoxThicknessTolrence.Text);
+
+        private void TextBoxSubstrateBlockX_TextChanged(object sender, EventArgs e)
+            => BlockXChanged?.Invoke(this, textBoxSubstrateBlockX.Text);
+
+        private void TextBoxSubstrateBlockY_TextChanged(object sender, EventArgs e)
+            => BlockYChanged?.Invoke(this, textBoxSubstrateBlockY.Text);
+
+        private void TextBoxSubstrateBlockNumX_TextChanged(object sender, EventArgs e)
+            => BlockNumXChanged?.Invoke(this, textBoxSubstrateBlockNumX.Text);
+
+        private void TextBoxSubstrateBlockNumY_TextChanged(object sender, EventArgs e)
+            => BlockNumYChanged?.Invoke(this, textBoxSubstrateBlockNumY.Text);
+
+        private void RadioButtonSinglePcb_CheckedChanged(object sender, EventArgs e)
         {
-            comboBoxRecipes.SelectedItem = name;
-            comboBoxRecipes.Text = name;
+            if (radioButtonSinglePcb.Checked)
+                PcbCountChanged?.Invoke(this, 1);
         }
 
-        public void ShowRecipeNames(IEnumerable<string> names)
+        private void RadioButtonDualPcb_CheckedChanged(object sender, EventArgs e)
         {
-            comboBoxRecipes.Items.Clear();
-            comboBoxRecipes.Items.AddRange(names.ToArray());
+            if (radioButtonDualPcb.Checked)
+                PcbCountChanged?.Invoke(this, 2);
         }
 
-        public void RemoveRecipeName(string name)
-        {
-            comboBoxRecipes.Items.Remove(name);
-            if (comboBoxRecipes.Items.Count > 0)
-                comboBoxRecipes.SelectedIndex = 0;
-        }
+        private void CheckBoxRotate_CheckedChanged(object sender, EventArgs e)
+            => RotateChanged?.Invoke(this, checkBoxRotate.Checked);
 
         private void ApplyTheme()
         {
@@ -158,7 +194,6 @@ namespace SBC_2D.Views
             ApplyButtonTheme(flowLayoutPanelRecipeManageCtrls);
             ApplyButtonTheme(groupBoxThicknessSetting);
             ApplyButtonTheme(flowLayoutPanelConfirmCancel);
-
             AppTheme.ApplyComboBox(panelSelectRecipe, comboBoxRecipes);
             AppTheme.ApplyButton(buttonGetPcbThickness);
             AppTheme.ApplyGroupBox(groupBoxRecipeManager);
