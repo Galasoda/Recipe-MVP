@@ -37,8 +37,6 @@ namespace SBC_2D.Presenters
             _recipeService = recipeService;
             _iniService = iniService;
             _recipeView = recipeView;
-            _editedRecipe = new Recipe();
-            _currentRecipe = new Recipe();
             _allRecipeNames = new List<string>();
         }
 
@@ -54,6 +52,15 @@ namespace SBC_2D.Presenters
             _recipeView.LowerBrBypassChanged += RecipeView_LowerBrBypassChanged;
             _recipeView.LdsBypassChanged += RecipeView_LdsBypassChanged;
             _recipeView.ModelNameSelectChanged += RecipeView_ModelNameSelectChanged;
+            _recipeView.ThicknessChanged += RecipeView_ThicknessChanged;
+            _recipeView.ThicknessTolerationChanged += RecipeView_ThicknessTolerationChanged;
+            _recipeView.BlockXChanged += RecipeView_BlockXChanged;
+            _recipeView.BlockYChanged += RecipeView_BlockYChanged;
+            _recipeView.BlockNumXChanged += RecipeView_BlockNumXChanged;
+            _recipeView.BlockNumYChanged += RecipeView_BlockNumYChanged;
+            _recipeView.PcbCountChanged += RecipeView_PcbCountChanged;
+            _recipeView.RotateChanged += RecipeView_RotateChanged;
+
             _isOnEdit = false;
             _recipeView.SetEditMode(_isOnEdit);
             ManageAction = RecipeManageAction.Nothing;
@@ -65,8 +72,8 @@ namespace SBC_2D.Presenters
             List<string> names = _recipeService.GetAllNames();
             string name = _iniService.GetName() ?? string.Empty;
             Recipe recipe = _recipeService.Get(name);
-            _currentRecipe = recipe.DeepClone();
-            _editedRecipe = recipe.DeepClone();
+            _currentRecipe = recipe.DeepClone() ?? new Recipe();
+            _editedRecipe = recipe.DeepClone() ?? new Recipe();
             _allRecipeNames = names;
             _recipeView.ShowRecipeNames(names);
             _recipeView.ShowRecipe(recipe);
@@ -74,39 +81,79 @@ namespace SBC_2D.Presenters
         }
 
         private void RecipeView_LdsBypassChanged(object sender, bool e)
-            => _editedRecipe.IsLdsBypass = e;
+            => Edit(nameof(Recipe.IsLdsBypass), false);
 
         private void RecipeView_LowerBrBypassChanged(object sender, bool e)
         {
-            _editedRecipe.IsLowerBrBypass = e;
+            Edit(nameof(Recipe.IsLowerBrBypass), e);
             if (e)
             {
-                _editedRecipe.IsMapModeBypass = false;
-                _editedRecipe.IsUpperBrBypass = false;
+                Edit(nameof(Recipe.IsMapModeBypass), false);
+                Edit(nameof(Recipe.IsUpperBrBypass), false);
                 _recipeView.ShowRecipe(_editedRecipe);
             }
         }
 
         private void RecipeView_UpperBrBypassChanged(object sender, bool e)
         {
-            _editedRecipe.IsUpperBrBypass = e;
+            Edit(nameof(Recipe.IsUpperBrBypass), e);
             if (e)
             {
-                _editedRecipe.IsMapModeBypass = false;
-                _editedRecipe.IsLowerBrBypass = false;
+                Edit(nameof(Recipe.IsMapModeBypass), false);
+                Edit(nameof(Recipe.IsLowerBrBypass), false);
                 _recipeView.ShowRecipe(_editedRecipe);
             }
         }
 
         private void RecipeView_MapModeBypassChanged(object sender, bool e)
         {
-            _editedRecipe.IsMapModeBypass = e;
+            Edit(nameof(Recipe.IsMapModeBypass), e);
             if (e)
             {
-                _editedRecipe.IsUpperBrBypass = false;
-                _editedRecipe.IsLowerBrBypass = false;
+                Edit(nameof(Recipe.IsUpperBrBypass), false);
+                Edit(nameof(Recipe.IsLowerBrBypass), false);
                 _recipeView.ShowRecipe(_editedRecipe);
             }
+        }
+
+        private void RecipeView_ThicknessChanged(object sender, string e)
+        {
+            Edit(nameof(Recipe.Thickness), e);
+        }
+
+        private void RecipeView_ThicknessTolerationChanged(object sender, string e)
+        {
+            Edit(nameof(Recipe.ThicknessPosTolerance), e);
+        }
+
+        private void RecipeView_BlockXChanged(object sender, string e)
+        {
+            Edit(nameof(Recipe.PcbBlockX), e);
+        }
+
+        private void RecipeView_BlockYChanged(object sender, string e)
+        {
+            Edit(nameof(Recipe.PcbBlockY), e);
+        }
+
+        private void RecipeView_BlockNumXChanged(object sender, string e)
+        {
+            Edit(nameof(Recipe.PcbBlocksX), e);
+        }
+
+        private void RecipeView_BlockNumYChanged(object sender, string e)
+        {
+            Edit(nameof(Recipe.PcbBlocksY), e);
+        }
+
+        private void RecipeView_PcbCountChanged(object sender, int v)
+        {
+            Edit(nameof(Recipe.PcbCount), v);
+        }
+
+        private void RecipeView_RotateChanged(object sender, bool v)
+        {
+            Edit(nameof(Recipe.IsPcbRotate), v);
         }
 
         private void RecipeView_ActionRequested(object sender, RecipeManageAction action)
@@ -145,15 +192,19 @@ namespace SBC_2D.Presenters
                     break;
             }
 
-            if (!string.IsNullOrEmpty(message))
-                _recipeView.ShowMessageBox(message);
+            //if (!string.IsNullOrEmpty(message))
+            //    _recipeView.ShowMessageBox(message);
 
             ManageAction = RecipeManageAction.Nothing;
             _recipeView.SetViewMode(RecipeManageAction.Nothing);
         }
 
         private void RecipeView_ActionCancelled(object sender, EventArgs e)
-            => CancelAction();
+        {
+            ManageAction = RecipeManageAction.Nothing;
+            _recipeView.SetViewMode(RecipeManageAction.Nothing);
+            _recipeView.SetEditMode(_isOnEdit);
+        }
 
         private void RecipeView_ToggleEditMode(object sender, EventArgs e)
         {
@@ -163,12 +214,11 @@ namespace SBC_2D.Presenters
         private void RecipeView_ModelNameSelectChanged(object sender, string e)
             => _selectedName = e;
 
-
-        // ── Recipe Operations ────────────────────────────────────
-
         public bool Load(string name)
         {
             Recipe recipe = _recipeService.Get(name);
+            _currentRecipe = recipe.DeepClone();
+            _editedRecipe = recipe.DeepClone();
             _recipeView.ShowRecipe(recipe);
             RecipeChanged?.Invoke(recipe);
             return true;
@@ -194,6 +244,7 @@ namespace SBC_2D.Presenters
             {
                 _allRecipeNames.Add(newName);
                 _currentRecipe = newRecipe.DeepClone();
+                _editedRecipe = newRecipe.DeepClone();
                 _recipeView.ShowRecipeNames(_allRecipeNames);
                 RecipeChanged?.Invoke(newRecipe);
             }
@@ -212,20 +263,29 @@ namespace SBC_2D.Presenters
             return isDeleted;
         }
 
+        private bool Edit(string propertyName, object value)
+        {
+            PropertyInfo[] propertys = typeof(Recipe).GetProperties();
+            try
+            {
+                if (string.IsNullOrWhiteSpace(propertyName))
+                    propertyName = "";
+                PropertyInfo property = propertys.FirstOrDefault(p => p.Name == propertyName);
+                object typedValue = Helper.ConvertValue(property.PropertyType, value);
+                property.SetValue(_editedRecipe, typedValue);
+                return true;
+            }
+            catch (Exception ex)
+            {
+                //message = $"Cant not edit recipy because invalid value for '{propertyName}'.";
+                return false;
+            }
+        }
+
         public void RequestAction(RecipeManageAction action)
         {
             ManageAction = action;
             _recipeView.SetViewMode(action);
-        }
-
-        public void CancelAction()
-        {
-            ManageAction = RecipeManageAction.Nothing;
-            _recipeView.SetViewMode(RecipeManageAction.Nothing);
-            _recipeView.SetEditMode(_isOnEdit);
-            if (_selectedName != _currentRecipe.Name)
-                _recipeView.SetSelectedName(_currentRecipe.Name);
-
         }
     }
 }

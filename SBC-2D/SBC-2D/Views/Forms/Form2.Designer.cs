@@ -403,6 +403,7 @@ namespace SBC_2D.Views
             this.textBoxPcbThickness.Size = new System.Drawing.Size(156, 23);
             this.textBoxPcbThickness.TabIndex = 11019;
             this.textBoxPcbThickness.WordWrap = false;
+            this.textBoxPcbThickness.TextChanged += new System.EventHandler(this.TextBoxPcbThickness_TextChanged);
             // 
             // panel3
             // 
@@ -431,6 +432,7 @@ namespace SBC_2D.Views
             this.textBoxThicknessTolrence.Size = new System.Drawing.Size(156, 23);
             this.textBoxThicknessTolrence.TabIndex = 11019;
             this.textBoxThicknessTolrence.WordWrap = false;
+            this.textBoxThicknessTolrence.TextChanged += new System.EventHandler(this.TextBoxThicknessTolrence_TextChanged);
             // 
             // label7
             // 
@@ -636,6 +638,7 @@ namespace SBC_2D.Views
             this.textBoxSubstrateBlockY.Name = "textBoxSubstrateBlockY";
             this.textBoxSubstrateBlockY.Size = new System.Drawing.Size(83, 24);
             this.textBoxSubstrateBlockY.TabIndex = 11008;
+            this.textBoxSubstrateBlockY.TextChanged += new System.EventHandler(this.TextBoxSubstrateBlockY_TextChanged);
             // 
             // label5
             // 
@@ -660,6 +663,7 @@ namespace SBC_2D.Views
             this.textBoxSubstrateBlockX.Name = "textBoxSubstrateBlockX";
             this.textBoxSubstrateBlockX.Size = new System.Drawing.Size(83, 24);
             this.textBoxSubstrateBlockX.TabIndex = 11007;
+            this.textBoxSubstrateBlockX.TextChanged += new System.EventHandler(this.TextBoxSubstrateBlockX_TextChanged);
             // 
             // label2
             // 
@@ -698,6 +702,7 @@ namespace SBC_2D.Views
             this.radioButtonSinglePcb.Tag = "1";
             this.radioButtonSinglePcb.Text = "單載板";
             this.radioButtonSinglePcb.UseVisualStyleBackColor = true;
+            this.radioButtonSinglePcb.CheckedChanged += new System.EventHandler(this.RadioButtonSinglePcb_CheckedChanged);
             // 
             // radioButtonDualPcb
             // 
@@ -711,6 +716,7 @@ namespace SBC_2D.Views
             this.radioButtonDualPcb.Tag = "2";
             this.radioButtonDualPcb.Text = "雙載板";
             this.radioButtonDualPcb.UseVisualStyleBackColor = true;
+            this.radioButtonDualPcb.CheckedChanged += new System.EventHandler(this.RadioButtonDualPcb_CheckedChanged);
             // 
             // checkBoxRotate
             // 
@@ -722,6 +728,7 @@ namespace SBC_2D.Views
             this.checkBoxRotate.TabIndex = 11040;
             this.checkBoxRotate.Text = "置件鏡像";
             this.checkBoxRotate.UseVisualStyleBackColor = true;
+            this.checkBoxRotate.CheckedChanged += new System.EventHandler(this.CheckBoxRotate_CheckedChanged);
             // 
             // label4
             // 
@@ -746,6 +753,7 @@ namespace SBC_2D.Views
             this.textBoxSubstrateBlockNumY.Name = "textBoxSubstrateBlockNumY";
             this.textBoxSubstrateBlockNumY.Size = new System.Drawing.Size(83, 24);
             this.textBoxSubstrateBlockNumY.TabIndex = 11043;
+            this.textBoxSubstrateBlockNumY.TextChanged += new System.EventHandler(this.TextBoxSubstrateBlockNumY_TextChanged);
             // 
             // label3
             // 
@@ -770,6 +778,7 @@ namespace SBC_2D.Views
             this.textBoxSubstrateBlockNumX.Name = "textBoxSubstrateBlockNumX";
             this.textBoxSubstrateBlockNumX.Size = new System.Drawing.Size(83, 24);
             this.textBoxSubstrateBlockNumX.TabIndex = 11041;
+            this.textBoxSubstrateBlockNumX.TextChanged += new System.EventHandler(this.TextBoxSubstrateBlockNumX_TextChanged);
             // 
             // groupBoxSubstrateSetting
             // 
@@ -804,7 +813,8 @@ namespace SBC_2D.Views
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(371, 75);
             this.label1.TabIndex = 11046;
-            this.label1.Text = "功能待增加: \r\n- 自製UI詢問，避免MSGBOX卡UI\r\n- 記得將模組名存入INI\r\n- 記得補上版厚設定的按鈕功能，考慮畫歸零彈跳視窗\r\n";
+            this.label1.Text = "功能待增加: \r\n- 自製UI詢問，避免MSGBOX卡UI\r\n- 記得將模組名存入INI\r\n- 記得補上版厚設定的按鈕功能，考慮畫歸零彈跳視窗\r\n- 不需要再即時" +
+    "edit資料庫\r\n\r\n";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Form2

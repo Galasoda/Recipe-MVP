@@ -9,7 +9,6 @@ namespace SBC_2D.Shared
     public enum RecipeManageAction
     {
         Nothing,
-        Edit,
         Open,
         Save,
         SaveAs,
